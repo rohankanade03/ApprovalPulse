@@ -1,0 +1,30 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# Next.js build output
+/.next
+/out
+/build
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs and tooling
+*.log
+.eslintcache
+*.tsbuildinfo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local ApprovalPulse demo backend state
+/data/approval-pulse-demo.json
+
+# Use pnpm lockfile only
+/package-lock.json
